@@ -24,7 +24,7 @@ img {
   margin: 0 auto;
 }
 header {
-  max-width: 100%;
+  width: 100%;
   /* height: 100vh; */
   background-image: linear-gradient(
       180deg,
@@ -33,7 +33,7 @@ header {
     ),
     url(../images/background.png);
   background-position: top;
-  background-size: top;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .header_content {
@@ -310,7 +310,7 @@ footer {
     gap: 40px;
   }
   .subtitle_h1 {
-    font-size: 1.7rem;
+   font-size: 24px;
   }
   .subtitle_p {
     font-size: 1rem;
