@@ -157,7 +157,7 @@ header {
 }
 .stages {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); 
   column-gap: 30px;
   margin: 75px 0 150px;
 }
@@ -342,6 +342,9 @@ footer {
   }
 }
 @media (max-width: 530px) {
+  .apple_info_section{
+    padding-top: 100px;
+  }
   .stage_box h4 {
     font-size: 24px;
     max-width: 311px;
